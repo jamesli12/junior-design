@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  height: 50px;
+  top: 0px;
+  background-color: white;
+}
+
+
+  
+  
+.navbar-button {
+    background-color: #ffffff00;
+    border: none;
+    font-family: 'Droid Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #878f9a;
+    text-decoration: none;
+    margin-right: 100px;
+}
+  

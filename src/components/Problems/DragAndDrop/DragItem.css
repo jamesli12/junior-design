@@ -1,0 +1,37 @@
+.drag-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 9.1333px 8.00003px 8.8667px 9.06665px;
+  width: 215.07px;
+  height: 36px;
+  background: #6795CF;
+  border-radius: 8px;
+  cursor: move;
+}
+.drag-item-text {
+  width: 198px;
+  height: 18px;
+  font-family: 'Droid Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  color: #FFFFFF;
+}
+.drag-item-container {
+  position: absolute;
+  width: 1100px;
+  height: 145px;
+  top: 1000px;
+  background: #F5F5F5;
+  border-radius: 9px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215.07px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(36px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+.about-container {
+  position: relative;
+  height: 140px;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  background-image: url('../../assets/background-2.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}

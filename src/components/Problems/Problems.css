@@ -1,0 +1,109 @@
+
+.Problems {
+  height: 1200px;
+  background-image: url('../../assets/problems.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.problem-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drag-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.drop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.dropped-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 50px;
+  background: #6795CF;
+  color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.dropped-item-text {
+  font-family: 'Droid Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.drop-table {
+  margin-top: 25rem;
+  border-collapse: collapse;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drop-table td {
+  text-align: center;
+}
+
+.check-button {
+  position: absolute;
+  background: #6795CF;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin-left: 100px;
+}
+
+.clear-button {
+  position: absolute;
+  background: #FFFFFF;
+  color: #6795CF;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin-right: 100px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.drop-area {
+  height: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6795CF;
+  margin-bottom: 3px;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.problem-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #F5F5F5;
+  height: 80px;
+  width: 200px;
+  border-radius: 0px 3px 3px 0px;
+}

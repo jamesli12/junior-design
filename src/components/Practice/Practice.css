@@ -1,0 +1,24 @@
+.practice-container {
+  position: relative;
+  height: 1600px;
+  padding-bottom: 90.25%;
+  overflow: hidden;
+  background-image: url('../../assets/background-3.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.practice-buttons {
+  position: relative;
+  margin-top: 475px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.practice-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
